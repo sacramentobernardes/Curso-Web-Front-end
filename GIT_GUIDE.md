@@ -1,5 +1,3 @@
-
-```markdown
 # 🎓 Mini Guia de Git
 
 Um guia rápido para consultas diárias e comandos essenciais do Git.
@@ -129,9 +127,8 @@ git pull
 
 > **Dica:** Se tiver dúvidas sobre um comando, use `git help <comando>` ou consulte a documentação oficial.
 
-```
 
-### Dica para o seu uso:
+### Dica para uso:
 Como você costuma trabalhar com projetos em Python (como o de detecção de spam e o site de tradução), lembre-se sempre de criar um arquivo `.gitignore` na raiz do projeto. Isso evita que pastas pesadas ou arquivos de sistema subam para o Git.
 
 **Exemplo de `.gitignore` para Python:**

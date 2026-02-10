@@ -135,7 +135,7 @@ Please commit your changes or stash them before you merge.
 Aborting
 
 ```
-> Faça:
+** Faça: **
 
 ```bash
 

@@ -11,7 +11,7 @@ O objetivo é transformar conhecimento teórico em referência prática.
 * **CSS:** Técnicas de layout (Flexbox e Grid), design responsivo e animações para interfaces modernas.
 * **JS:** Manipulação do DOM, lógica de interatividade, consumo de APIs e funcionalidades do ES6+.
 * **SQL:** Queries otimizadas, scripts de criação e manipulação para diferentes bancos (Oracle, SQL Server, MySQL).
-* **Git:** Guia rápido de comandos e fluxo de trabalho (veja o arquivo `GIT_GUIDE.md`).
+* **Git:** Guia rápido de comandos e fluxo de trabalho (veja o arquivo [GitGuide](GIT_GUIDE.md)).
 
 ---
 *Este repositório é atualizado constantemente à medida que resolvo novos desafios e aprendo novas tecnologias.*

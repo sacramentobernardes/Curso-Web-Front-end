@@ -135,6 +135,8 @@ Please commit your changes or stash them before you merge.
 Aborting
 
 ```
+> Faça:
+
 ```bash
 
 git checkout -- nome_do_arquivo.txt

@@ -14,4 +14,4 @@ O objetivo é transformar conhecimento teórico em referência prática.
 * **Git:** Guia rápido de comandos e fluxo de trabalho (veja o arquivo [GitGuide](GIT_GUIDE.md)).
 
 ---
-*Este repositório é atualizado constantemente à medida que resolvo novos desafios e aprendo novas tecnologias.*
+> Este repositório é atualizado constantemente à medida que resolvo novos desafios e aprendo novas tecnologias.*

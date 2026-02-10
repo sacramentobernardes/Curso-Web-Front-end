@@ -104,9 +104,9 @@ git checkout -- nome_do_arquivo.txt
 git pull
 ```
 
-<br><br>
+<br>
 
- **Caso de o seguinte erro:**
+* **Caso de o seguinte <i>erro</i>:**
 
 ```bash
 # error: Your local changes to the following files would be overwritten by merge:
@@ -136,4 +136,3 @@ venv/
 .env
 
 ```
-

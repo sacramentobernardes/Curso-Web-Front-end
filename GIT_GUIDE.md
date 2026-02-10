@@ -125,6 +125,25 @@ git pull
 ```
 
 
+* **Caso de o seguinte erro:**
+
+```text
+
+error: Your local changes to the following files would be overwritten by merge:
+        GIT_GUIDE.md
+Please commit your changes or stash them before you merge.
+Aborting
+
+```
+```bash
+
+git checkout -- nome_do_arquivo.txt
+git pull
+
+```
+
+
+
 > **Dica:** Se tiver dúvidas sobre um comando, use `git help <comando>` ou consulte a documentação oficial.
 
 

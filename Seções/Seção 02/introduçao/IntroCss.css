@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-h1 {
+.h1 {
     font-size: 48px;
     background-color: black;
     color: gold;
@@ -13,11 +13,16 @@ h1 {
     margin: 0;
 }
 
-h2 {
+#aga2 {
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
     font-weight: normal;
+}
+
+#aga2:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 p {
@@ -25,9 +30,17 @@ p {
 }
 
 .p1 {
+    color: green;
     border: black, solid, 2px;
-    background-color: red;
+    background-color: rgb(175, 175, 175);
     text-decoration: underline;
     display: inline;
     padding: 5px;
+}
+
+.p1:hover {
+    color: red;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(226, 226, 226);
 }

@@ -1,0 +1,44 @@
+ * {
+    background-color: #fafafa;
+    font-family: monospace;
+} 
+
+body {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    background: #1A365D;
+    font-size: 46px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h2 {
+    background: #E2E8F0;
+    font-size: 36px;
+    color: #2D3748;
+    padding: 7px;
+    border-bottom: #2D3748 solid;
+}
+
+h3 {
+    font-size: 14.5px;
+}
+
+a {
+    color: #1387e0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

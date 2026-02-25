@@ -1,14 +1,13 @@
  * {
-    background-color: #fafafa;
     font-family: monospace;
 } 
 
 body {
+    background-color: #fafafa;
     width: 80%;
     margin: auto;
     margin-bottom: 50px;
-    /* margin-left: 5%;
-    margin-right: 5%; */
+    margin-top: 50px;
 }
 
 .center {
@@ -20,6 +19,15 @@ h1 {
     font-size: 46px;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 0px;
+}
+
+.subtitle_nome {
+    margin-top: 1px;
+    padding: 2px;
+    background-color: #E0E1DD;
+    color: #1A365D;
+    font-size: 15px;
 }
 
 h2 {
@@ -28,6 +36,10 @@ h2 {
     color: #2D3748;
     padding: 7px;
     border-bottom: #2D3748 solid;
+}
+
+.mgtp0 {
+    margin-top: 0px;
 }
 
 h3 {
@@ -41,4 +53,39 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.menu {
+    display: flex;       
+    gap: 10px;    
+    text-align: center;
+    list-style: none;
+}
+
+.menu li {
+    /* flex: 1; */
+    flex-grow: 1;
+    display: block;
+}
+
+.menu a {
+    background-color: #E2E8F0;
+    display: block;
+    text-align: center; 
+    padding: 5px;
+    color: #2D3748;
+}
+
+.menu a:hover {
+    background-color: #1A365D;
+    text-decoration: none;
+    color: white;
 }

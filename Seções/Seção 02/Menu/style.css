@@ -23,11 +23,14 @@ h1 {
 }
 
 .subtitle_nome {
-    margin-top: 1px;
+    margin-top: 0px;
     padding: 2px;
     background-color: #E0E1DD;
     color: #1A365D;
     font-size: 15px;
+    border-bottom: #1A365D solid 0.5px;
+    border-left: #1A365D solid 0.5px;
+    border-right: #1A365D solid 0.5px;
 }
 
 h2 {
@@ -65,15 +68,16 @@ li {
 
 .menu {
     display: flex;       
+    flex-direction: column-reverse;
     gap: 10px;    
     text-align: center;
     list-style: none;
 }
 
 .menu li {
-    /* flex: 1; */
-    flex-grow: 1;
+    flex: 1;
     display: block;
+    border: #1A365D solid 0.5px;
 }
 
 .menu a {
@@ -81,7 +85,7 @@ li {
     display: block;
     text-align: center; 
     padding: 5px;
-    color: #2D3748;
+    color: #1A365D;
 }
 
 .menu a:hover {

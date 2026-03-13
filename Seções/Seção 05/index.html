@@ -13,6 +13,13 @@
             display: flex;
             margin-bottom: 16px;
         }
+
+        .flexbox2 {
+            height: 400px;
+            border: 2px solid black;
+            display: flex;
+            margin-bottom: 16px;
+        }
         
         .flexbox div {
             width: 100px;
@@ -21,18 +28,76 @@
         }
 
         .flex-conteiner1 {
-            flex-flow: row-reverse;
+            flex-flow: row;
             justify-content: space-evenly;
         }
 
         .flex-conteiner2 {
             /* flex-direction: row-reverse; */
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
         }
 
         .flex-conteiner2 div {
             width: 50px;
+        }
+
+        .flex-conteiner3 {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+
+        }
+
+        .flex-conteiner3 div {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10PX;
+            width: 50px;
+            height: 50px;
+        }
+
+        .flex-conteiner4 {
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            height: 400px;
+        }
+
+        .flex-conteiner4 div {
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+        }
+
+        .flex-conteiner4 .div2 {
+            flex-basis: 200px;
+        }
+
+        .flex-conteiner5 {
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .flex-conteiner5 div{
+            flex-basis: 100px;
+            margin: 0px;
+        }
+
+        .flex-conteiner5 .div2{
+            flex-grow: 1;
+        }
+
+        .flex-conteiner5 .div4{
+            flex-grow: 2;
         }
         
         .div1 {
@@ -67,6 +132,28 @@
         <div class="div3"></div>
         <div class="div4"></div>
     </div>
+
+    <div class="flexbox2 flex-conteiner3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+    <div class="flexbox flex-conteiner4">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
+    <div class="flexbox flex-conteiner5">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </div>
+
 
 </body>
 </html>
